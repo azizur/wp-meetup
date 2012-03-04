@@ -118,7 +118,6 @@ function meetup_people() {
 
         // Cover the screen
         $output .= $output;
-        $output .= $output;
 
         // Store in case of transient fail
         update_option( 'meetup_people_backup', $output );
